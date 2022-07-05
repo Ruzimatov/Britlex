@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&family=Mulish:wght@300;400;700&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: .3s ease-in-out;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Common styles */
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.body-title{
+    text-align: center;
+    font-size: 48px;
+    line-height: 80px;
+    font-weight: 600;
+    margin-bottom: 90px;
+}
+.learn-btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #263238;
+    border-radius: 5px;
+}
+.section-title{
+    font-size: 48px;
+    line-height: 80px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+.section-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+/* Common styles  */
+/* Header start*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
+    margin-bottom: 75px;
+}
+.nav-list{
+    list-style-type: none;
+}
+.nav-list li{
+    display: inline-block;
+    margin-right: 45px;
+}
+.nav-list li:last-child{
+    margin-right: 0;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+}
+.nav-list li a:hover{
+    color: #8F95A5 ;
+}
+.nav-btn{
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 30px;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* Header end*/
+/* Intro start */
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 105px;
+}
+.intro-text h1{
+    width: 386px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 50px;
+}
+.intro-text p{
+    width: 630px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+    margin-bottom: 60px;
+}
+.start-btn{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 32px 117px;
+    background: #263238;
+    border-radius: 15px;
+    border: 2px solid transparent ;
+}
+.start-btn:hover{
+    background-color: #fff;
+    color: #263238;
+    border: 2px solid #263238;
+}
+/* Intro end */
+/* Skills start */
+.skills-section{
+    margin-bottom: 280px;
+}
+.skills-wrapper{
+    display: flex;
+    gap: 18px;
+}
+.speaking{
+    width: 435px;
+    height: 894px;
+    border-radius: 10px;
+    background: #F5F5F5;
+}
+.skill-card:hover{
+    box-shadow: 1px 3px 19px -2px #000000;
+}
+.speaking-img{
+    margin-bottom: 4px;
+    padding: 35px 22px;
+}
+.skills-title{
+    padding-left: 45px;
+}
+.skills-card-heading{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    margin-bottom: 5px;
+}
+.skills-title p{
+    width: 355px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8F95A5;
+    margin-bottom: 36px;
+}
+.right-skills-container{
+    display: flex;
+    flex-direction: column;
+    gap: 18px  ;
+}
+.upper-right{
+    display: flex;
+    gap:18px;
+    border-radius: 10px;
+}
+.inner-left-img{
+    padding: 4px 19px 0 122px;
+    margin-bottom: 0;
+}
+.upper-right-title{
+    line-height: 40px;
+}
+.inner-right-skills, .inner-left-skills{
+    width: 434px;
+    height: 531px;
+    background-color: #F5F5F5 ;
+    border-radius: 10px;
+}
+.inner-right-img{
+    margin-bottom: 50px;
+}
+.lower-right-skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+    width: 100%;
+    height: 343px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.left-lower-text{
+    padding-left: 43px;
+}
+/* Skills end */
+/* About start */
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+.about-info{
+    width: 635px;
+}
+.about-text{
+    margin-bottom: 80px;
+}
+.about-items{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.about-items li{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    text-align: center;
+}
+.about-items li::first-line{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #2A3246;
+}
+/* About end*/
+/* Pricing start */
+.pricing{
+    margin-bottom: 290px;
+}
+.price-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.pricing-container{
+    display: flex;
+    justify-content: space-between;
+}
+.price-card{
+    width: 430px;
+}
+.price-img{
+    margin: 0 auto;
+    margin-bottom: 42px;
+}
+.price-heading{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    margin-bottom: 19px;
+}
+.price-text p{
+    width: 424px;
+    height: 86px;
+    margin-bottom: 33px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+.price-tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-tag p{
+    padding-left: 25px;
+    width: 240px;
+    height: 45px;
+    font-size: 30px;
+    line-height: 45px;
+    color: #263238;
+    background: #EEEEEE;
+    border-radius: 5px; 
+}
+sup{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #546269;
+}
+.live-online{
+    padding-top: 45px;
+    margin-bottom: 25px;
+}
+.personal-heading{
+    margin-top: -30px;
+}
+/* Pricing end */
+/* Contact start */
+.contact{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 140px;
+}
+.contact-text{
+    width: 700px;
+}
+.contact-text p{
+    margin-bottom: 50px;
+}
+form{
+    display: flex;
+}
+input{
+    width: 450px;
+    height: 80px;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    padding: 26px 0 32px 33px;
+    margin-right: 14px;
+}
+form button{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 25px 80px;
+    background: #263238;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+form button:hover{
+    background-color: #fff;
+    border: 2px solid #263238;
+    color: #263238;
+}
+/* Contact end */
+/* Footer start */
+footer{
+    border-top: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.rights span{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+}
+/* Footer end */
